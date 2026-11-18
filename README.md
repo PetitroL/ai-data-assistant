@@ -130,6 +130,19 @@ npm run build && npm run preview   # 打开 http://localhost:5178
 curl http://<host>:5178/api/health          # 期望 {"ok":true,"engine":"mock"|"openai",...}
 ```
 
+## 测试与 CI
+
+```bash
+# 先跑起服务（npm run dev 或 node server/index.js），再执行冒烟测试
+npm run smoke
+```
+
+`scripts/smoke.mjs` 会真实走一遍 SSE，断言：事件类型齐全（start / tool_call×2 / tool_result×2 / done）、
+`done` 未被误判为中断、流式片段里 Markdown 表格的换行完好、回答命中了真实查询结果。
+可用 `BASE_URL=https://your-host npm run smoke` 直接测线上部署。
+
+`.github/workflows/ci.yml`：每次 push / PR 自动 `npm ci` → `npm run build` → 起服务跑冒烟测试。
+
 ## 简历文案 ↔ 代码位置
 
 面试官追问「这块你具体怎么做的」时，可以直接对着文件讲：
@@ -149,3 +162,7 @@ curl http://<host>:5178/api/health          # 期望 {"ok":true,"engine":"mock"|
 - 图表 spec → 导出 PNG / CSV
 - 多轮里做「指代消解」（“第一名”指向上一轮结果）
 - 用 `zod` 校验工具参数，替代手写分支
+
+## License
+
+MIT © 2026 罗尉

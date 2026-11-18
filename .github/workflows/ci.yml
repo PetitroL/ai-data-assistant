@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-and-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 构建前端
+        run: npm run build
+
+      - name: 启动服务并跑 SSE 冒烟测试
+        run: |
+          node server/index.js > /tmp/server.log 2>&1 &
+          for i in $(seq 1 20); do
+            if curl -sf http://localhost:5178/api/health > /dev/null; then break; fi
+            sleep 1
+          done
+          node scripts/smoke.mjs
+          cat /tmp/server.log

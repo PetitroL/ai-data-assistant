@@ -9,7 +9,8 @@
     "dev:server": "node server/index.js",
     "dev:web": "vite --config web/vite.config.js",
     "build": "vite build --config web/vite.config.js",
-    "preview": "node server/index.js"
+    "preview": "node server/index.js",
+    "smoke": "node scripts/smoke.mjs"
   },
   "dependencies": {
     "cors": "^2.8.5",
