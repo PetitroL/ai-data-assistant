@@ -3,7 +3,8 @@ services:
     name: ai-data-assistant
     runtime: node
     plan: free
-    buildCommand: npm install && npm run build
+    # 构建需要 vite / vue 这些 devDependencies，Render 若按 production 装包会漏掉，显式带上 --include=dev
+    buildCommand: npm install --include=dev && npm run build
     startCommand: node server/index.js
     healthCheckPath: /api/health
     envVars:
