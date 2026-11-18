@@ -11,8 +11,7 @@ categories: 前端工程
 
 简历上写「AI 对话式数据助手（Vue3 + Node）」很容易，被追问一句「工具调用那轮循环你怎么收敛的」就露馅了。所以我把这条做成了一个能真跑的项目：一句自然语言查楼宇数据，模型自己调工具取数、自己决定要不要出图，前端逐字流式渲染，还把每次工具调用的参数、状态、耗时、结果全部摊开给用户看。
 
-- 在线体验：https://ai-data-assistant.onrender.com （无 Key 也能跑，内部是 Mock 引擎）
-- 源码：https://github.com/sinolw/ai-data-assistant
+源码仓库：[PetitroL/ai-data-assistant](https://github.com/PetitroL/ai-data-assistant)
 
 <!-- more -->
 
