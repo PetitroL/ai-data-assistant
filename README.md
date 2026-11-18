@@ -7,7 +7,7 @@
 - 在线体验：`https://ai-data-assistant.onrender.com`（待部署后替换）
 - 源码：`https://github.com/sinolw/ai-data-assistant`（待建仓后替换）
 
-![运行效果](docs/preview.png)
+![运行效果](https://petitrol.github.io/images/ai-data-assistant/preview.png)
 
 ## 快速开始
 

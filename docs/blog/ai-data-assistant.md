@@ -13,6 +13,8 @@ categories: 前端工程
 
 源码仓库：[PetitroL/ai-data-assistant](https://github.com/PetitroL/ai-data-assistant)
 
+![运行效果](https://petitrol.github.io/images/ai-data-assistant/preview.png)
+
 <!-- more -->
 
 ## 想解决的真问题
