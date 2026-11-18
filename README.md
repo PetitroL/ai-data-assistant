@@ -4,6 +4,9 @@
 
 > 数据集为演示用样例（19 个商办楼宇，覆盖成都 / 济南），不含真实商业数据。
 
+- 在线体验：`https://ai-data-assistant.onrender.com`（待部署后替换）
+- 源码：`https://github.com/sinolw/ai-data-assistant`（待建仓后替换）
+
 ![运行效果](docs/preview.png)
 
 ## 快速开始
