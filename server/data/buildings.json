@@ -1,0 +1,21 @@
+[
+  { "id": "cd-01", "name": "银泰 in99 中心", "city": "成都", "district": "锦江", "rent": 128, "vacancy": 6.4, "score": 92, "tags": ["甲级", "地铁上盖"] },
+  { "id": "cd-02", "name": "成都 IFS 国际金融中心", "city": "成都", "district": "锦江", "rent": 145, "vacancy": 4.1, "score": 96, "tags": ["超甲", "核心商圈"] },
+  { "id": "cd-03", "name": "天府国际金融中心", "city": "成都", "district": "高新", "rent": 136, "vacancy": 7.8, "score": 90, "tags": ["甲级", "金融产业"] },
+  { "id": "cd-04", "name": "腾讯大厦（成都）", "city": "成都", "district": "高新", "rent": 112, "vacancy": 3.2, "score": 88, "tags": ["互联网", "整层可租"] },
+  { "id": "cd-05", "name": "东方希望天祥广场", "city": "成都", "district": "高新", "rent": 104, "vacancy": 9.5, "score": 84, "tags": ["甲级", "双地铁"] },
+  { "id": "cd-06", "name": "高新万科大厦", "city": "成都", "district": "高新", "rent": 92, "vacancy": 11.2, "score": 80, "tags": ["乙级+", "配套完善"] },
+  { "id": "cd-07", "name": "天府软件园 C 区", "city": "成都", "district": "高新", "rent": 76, "vacancy": 5.6, "score": 78, "tags": ["产业园", "政策补贴"] },
+  { "id": "cd-08", "name": "蜀都中心", "city": "成都", "district": "武侯", "rent": 88, "vacancy": 13.4, "score": 74, "tags": ["甲级", "性价比高"] },
+  { "id": "cd-09", "name": "西部智谷", "city": "成都", "district": "武侯", "rent": 66, "vacancy": 15.8, "score": 68, "tags": ["产业园", "大面积"] },
+  { "id": "cd-10", "name": "成华万科文创大厦", "city": "成都", "district": "成华", "rent": 72, "vacancy": 18.3, "score": 65, "tags": ["文创", "改造项目"] },
+  { "id": "jn-01", "name": "山东国际金融中心", "city": "济南", "district": "历下", "rent": 118, "vacancy": 8.9, "score": 88, "tags": ["超甲", "CBD 核心"] },
+  { "id": "jn-02", "name": "汉峪金谷", "city": "济南", "district": "历下", "rent": 105, "vacancy": 12.1, "score": 82, "tags": ["甲级", "总部经济"] },
+  { "id": "jn-03", "name": "舜泰广场", "city": "济南", "district": "历下", "rent": 96, "vacancy": 10.4, "score": 80, "tags": ["甲级", "地铁直达"] },
+  { "id": "jn-04", "name": "银丰财富广场", "city": "济南", "district": "历下", "rent": 90, "vacancy": 9.2, "score": 78, "tags": ["甲级", "景观办公"] },
+  { "id": "jn-05", "name": "中润世纪广场", "city": "济南", "district": "历下", "rent": 84, "vacancy": 14.7, "score": 72, "tags": ["乙级+", "租金可谈"] },
+  { "id": "jn-06", "name": "浪潮科技园", "city": "济南", "district": "高新", "rent": 88, "vacancy": 6.8, "score": 79, "tags": ["产业园", "IT 企业集中"] },
+  { "id": "jn-07", "name": "齐鲁软件园", "city": "济南", "district": "高新", "rent": 74, "vacancy": 11.6, "score": 74, "tags": ["产业园", "补贴政策"] },
+  { "id": "jn-08", "name": "万虹广场", "city": "济南", "district": "历城", "rent": 64, "vacancy": 17.5, "score": 66, "tags": ["乙级", "大面积"] },
+  { "id": "jn-09", "name": "济南高新万达", "city": "济南", "district": "高新", "rent": 78, "vacancy": 13.9, "score": 70, "tags": ["综合体", "配套成熟"] }
+]
